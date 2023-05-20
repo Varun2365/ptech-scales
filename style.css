@@ -247,7 +247,7 @@ html{
     /* transform: translateY(-20vh) translateX(-30vw); */
     opacity: 0.5;
     z-index: -10;
-    -webkit-filter: brightness(1);
+    -webkit-filter: brightness(0.5);
 }
 
 .trust h2{
@@ -439,7 +439,7 @@ html{
     background-image: url(images/weigh.jpg);
     background-size: cover;
     background-position: center;
-    -webkit-filter: blur(0px) brightness(0.78);
+    -webkit-filter: blur(0px) brightness(0.2);
     z-index: -1;
 }
 .weighing-bridge-left h1{
