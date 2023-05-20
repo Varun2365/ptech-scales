@@ -588,5 +588,7 @@ sup{
     .nav-left h1{
         font-size: 2rem;
     }
+    .nav{
+        padding: 1vw;
     
 }
