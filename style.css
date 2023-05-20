@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 20px;
+}
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-button{
+    /* background-color: black; */
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+}
+.nav{
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vh;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(8px);
+    position:fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 1px 20px 1px rgba(209, 209, 209, 0.539);
+    overflow: hidden;
+    z-index: 100;
+}
+.nav-left h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+}
+.nav-right ul{
+    display: flex;
+    list-style: none;
+}
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right a{
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    font-size: 0.8rem;
+}
+.nav-right a:hover{
+    /* text-decoration: solid;
+    text-decoration-color: black;
+    text-decoration-line: underline;
+    text-underline-offset: 10px; */
+    background-color: rgba(179, 179, 179, 0.37);
+    transform: translateY(-2px);
+}
+.ham{
+
+    border: none;
+    display: none;
+    background-color: transparent;
+}
+.hamburger{
+    height: 2rem;
+    width: 2rem;
+    background-image: url(images/ham.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.button-default{
+    height: 6vh;
+    padding: 0 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 0.95rem;
+    margin-left: 30px;
+    transition: all 0.2s ease-in-out;
+}
+.no-margin-button{
+    margin-left: 0;
+}
+.button-default:hover{
+    background-color: rgb(50, 50, 50);
+    cursor: pointer;
+    /* font-size: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    height: 50%;
+    width: 50%;
+    background-image: url('images/icons/store-icon.png');
+    background-color: yellow;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    padding-top: 8vh;
+}
+.home{
+    height: 103vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    overflow: hidden;
+    background-color: rgba(196, 196, 196, 0.201);
+    /* background-color: #e3ccae0c; */
+    z-index: 10;
+}
+.home::after{
+    content: '';
+    height: 100vh;
+    width: 100%;
+    /* background-image: url('images/icons/wave.svg'); */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    /* background; */
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    opacity: 1;
+    /* z-index: -; */
+
+}
+.home-left{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+}
+.home-right{
+    /* width: 35%; */
+    height: 50vh;
+    background-color: transparent;
+    /* border: 4px solid black; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    height: 50vh;
+    width: 90%;
+    background-image: url('images/hero-2.jpg');
+    border: 2px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.home-left h1{
+    font-size: 4.8rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.home-left h4{
+    font-weight: 300;
+    color: rgb(19, 19, 19);
+    font-size: 1.2rem;
+}
+.margin{
+    margin-bottom: 40px;
+
+}
+.home-left h1::before{
+    content: '';
+    height: 100px;
+    width: 100px;
+    background-image: url('images/icons/asset\ \(1\).svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    transform: translateY(-10vh) translateX(-25vw);
+    /* transform: translateX(30px); */
+    opacity: 0.1;
+/* transform: translateY(40px); */
+}
+.red{
+    background-color: red;
+}
+.no-decoration{
+    text-decoration: none;
+    color: white;
+}
+/* PRODUCTS */
+
+.trust{
+    /* margin-top: 8vh; */
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    transform: translateY(-10px);
+    color: white;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.trust h3{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.trust::before{
+    content: '';
+    height: 50vh;
+    width: 100vw;
+    background-image: url(images/icons/circle.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    position: absolute;
+    /* transform: translateY(-20vh) translateX(-30vw); */
+    opacity: 0.1;
+    z-index: -10;
+    -webkit-filter: brightness(0.7);
+}
+
+.trust h2{
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: 20px;
+    /* word-spacing: 20px; */
+    letter-spacing: 6px;
+    
+}
+.products{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    /* background-color: red; */
+
+}
+.products h1{
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 2px;
+}
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 50vh;
+    width: 15vw;
+    /* background-color: black; */
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.258);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    min-width: 15rem;
+    margin: 50px;
+    transition: all 0.2s ease-in-out;
+    min-height: 25rem;
+    max-height: 40rem;
+}
+.card-image{
+    height: 60%;
+    width: 100%;
+    /* background-color: red; */
+    /* background-image: url(images/tabletop.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.2s ease-in;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px 5px rgba(139, 139, 139, 0.38);
+    cursor: pointer;
+
+}
+.card:hover .card-image{
+    width: 105%;
+    /* height: 63%; */
+    /* transform: translateY(-5px); */
+    cursor: pointer;
+}
+.bg{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card-info{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-info h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.card-info h5{
+    font-size: 0.8rem;
+    font-weight: 300;
+
+}
+.card-info h4{
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+.table-top{
+    background-image: url(images/tabletop.jpg);
+    background-position: top;
+}
+.digital-indicator{
+    background-image: url(images/digital-indicator.jpg);
+    background-position: bottom;
+}
+.kitchen{
+    background-image: url(images/kitchen-scale.webp);
+}
+.personal{
+    background-image: url(images/personal.webp);
+}
+.hanging{
+    background-image: url(images/hanging.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.jewellery{
+    background-image: url(images/jewel.png);
+}
+.pocket{
+    background-image: url(images/pocket.webp);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Weighing Bridge */
+.weighing-bridge{
+    /* min-height: 100vh; */
+    height: fit-content;
+    width: 100%;
+    background-color: rgba(196, 196, 196, 0.201);
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+}
+.weighing-bridge-left{
+    width: 30%;
+    /* background-image: url(images/digital-indicator.jpg); */
+    height: 100vh;
+    color: white;
+    z-index: 40;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    /* margin: auto; */
+    /* padding-left: ; */
+}
+.weighing-bridge-right{
+    width: 75%;
+    height: 100vh;
+    padding: 19vh 0 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.weighing-bridge-left::before{
+    content: '';
+    height: 100vh;
+    width: 25% ;
+    position: absolute;
+    background-color: yellow;
+    background-image: url(images/weigh.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-filter: blur(0px) brightness(0.1);
+    z-index: -1;
+}
+.weighing-bridge-left h1{
+    font-size: 3rem;
+    font-weight: 400;
+    padding-left: 2rem;
+}
+.weighing-bridge-left h4{
+    font-size: 1rem;
+    font-weight: 300;
+    padding-left: 2rem;
+}
+.weigh-top h3{
+    font-size: 1rem;
+    font-weight: 300;
+}
+sup{
+    font-size: 0.5rem;
+}
+.weigh-bottom{
+    width: 95%;
+    height: auto;
+    background-color: rgba(207, 207, 207, 0.009);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.weigh-card{
+    height: 15rem;
+    width: 30%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border-right: 1px solid rgba(0, 0, 0, 0.151); */
+    padding: 1rem;
+    min-height: 25rem;
+    max-height: 40rem;
+    min-width: 15rem;
+    max-width: 25rem;
+    overflow: hidden;
+    margin: 0.1rem;
+
+}
+.weigh-image:hover {
+    width: 102%;
+
+}
+.weigh-image{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: rebeccapurple; */
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.weigh-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    padding: 2rem 0.5rem 1rem;
+    text-align: center;
+}
+.weigh-text{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.7rem;
+    font-weight: 300;
+
+}
+.weigh-heading{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.pit{
+    background-image: url(images/pit.jpg);
+}
+.pit-type{
+    background-image: url(images/pit-type.jpg);
+}
+.no-border{
+    border-right: 0px solid transparent;
+}
+.mobile{
+    background-image: url(images/mobile.jpg);
+}
+
+
+.about-us{
+    height: 100vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1958px){
+    .weighing-bridge-left h1{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 1485px){
+    html{
+        /* background-color: yellow; */
+        font-size: 17px;
+    }
+    .weighing-bridge{
+        flex-direction: column;
+        height: auto;
+    }
+    .weighing-bridge-left{
+        width: 100%;
+        content: "<h1>Weighing Bridge <br><h4>& Automation</h4></h1>";
+        height: 30vh;
+        display: flex;
+        /* flex-direction: row; */justify-content: center;
+        align-items: center;
+    }
+    .weighing-bridge-left::before{
+        width: 100%;
+        height: 30vh;
+    }
+    .weighing-bridge-left h1{
+        font-size: 3.5rem;
+    }
+    .weighing-bridge-left h4{
+        font-size: 1.7rem;
+    }
+    .nav-right{
+        display: none;
+    }
+    .ham{
+        display: block;
+    }
+    .ham:hover{
+        cursor: pointer;
+        /* background-color: red; */
+    }
+    .nav-left h1{
+        font-size: 2rem;
+    }
+    
+}
