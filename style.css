@@ -536,11 +536,62 @@ sup{
 .mobile{
     background-image: url(images/mobile.jpg);
 }
+.menu{
+    width: 40%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    color: white;
+    top:0;
+    overflow: hidden;
+    /* transform: translateX(4440px);
+     */
+    /* display: hidden; */
+    /* opacity: 0.2; */
+    /* z-index: -199; */
+    transition: all 0.3s ease-in-out;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu li{
+    padding: 3vh 3vh;
+    /* width: 100px; */
+    font-weight: 1rem;
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+.cross-button{
+    border: none;
+    background-color: transparent;
+    margin-left: 2rem;
+}
+.cross{
+    height: 3rem;
+    width: 3em;
+    background-image: url(images/cross.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .about-us{
     height: 100vh;
     width: 100%;
+    background-color: rebeccapurple;
 }
 
 @media only screen and (max-width: 1958px){
