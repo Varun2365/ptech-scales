@@ -203,8 +203,8 @@
         function hidemenu(){
             // let tab = document.getElementById("panel");
             tab.style.display = "none";
-            tab.style.zindex = "-100";
-            ham.style.zindex = "100";
+            // tab.style.zindex = "-100";
+            // ham.style.zindex = "100";
         }
         function showmenu(){
             console.log("clicked");
