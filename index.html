@@ -16,7 +16,7 @@
         </div>
         <div class="nav-right">
             <ul>
-                <a href="#">
+                <a href="#" >
                     <li>HOME</li>
                 </a>
                 <a href="#products">
@@ -35,14 +35,32 @@
                     </span></div>
                 </button>
             </div>
-            <button class="ham"><div class="hamburger"></div></button>
+            <button class="ham" onclick="showmenu()" id="ham"><div class="hamburger"></div></button>
     </nav>
+    <div class="menu" id="panel">
+        <button class="cross-button" onclick="hidemenu()"><div class="cross"></div></button>
+        <ul>
+            <a href="#" onclick="hidemenu()">
+                <li>HOME</li>
+            </a>
+            <a href="#products"onclick="hidemenu()">
+                <li>PRODUCTS</li>
+            </a>
+            <a href="#weigh"onclick="hidemenu()">
+                <li>WEIGHING BRIDGE</li>
+            </a>
+            <a href="#"onclick="hidemenu()">
+                <li>ABOUT US</li>
+            </a>
+        </ul>
+    </div>
     <div class="home section">
         <div class="home-left">
             <h1>P-TECH SCALES</h1>
-            <h4>- Leading Indian Weighing Scale Manufacturers</h4>
+            <center><h4>- Leading Indian Weighing Scale Manufacturers</h4>
             <h4 class="margin">- Where Quality Meets Satisfaction!</h4>
             <a href="#trust" class="no-decoration"><button class="button-default no-margin-button">Visit</button></a>
+        </center>
         </div>
         <div class="home-right">
             <div class="hero"></div>
@@ -175,7 +193,27 @@
             <!-- <button class="button-default" >Know More</button> -->
         </div>
     </div>
-    <div class="about-us section"></div>
+    <div class="about-us section">
+        <!-- <marquee behavior="alternate" direction=""><center style="padding-top: 10rem">CURRENTLY WEBSITE UNDER CONSTRUCTION</center></marquee> -->
+        <button onclick="showmenu()">hello</button>
+    </div>
+    <script>
+        document.getElementById("panel").id = "tab";
+        document.getElementById("ham").id = "ham";
+        function hidemenu(){
+            // let tab = document.getElementById("panel");
+            tab.style.display = "none";
+            tab.style.zindex = "-100";
+            ham.style.zindex = "100";
+        }
+        function showmenu(){
+            console.log("clicked");
+            
+            // tab.style.z-index = "100";
+            tab.style.display = "block";
+
+        }
+    </script>
 </body>
 
 </html>
