@@ -245,7 +245,7 @@ html{
     background-position: left;
     position: absolute;
     /* transform: translateY(-20vh) translateX(-30vw); */
-    opacity: 0.5;
+    opacity: 0.2;
     z-index: -10;
     -webkit-filter: brightness(0.5);
 }
