@@ -78,7 +78,7 @@
                 <div class="card-info">
                     <h2>TABLE TOP</h2>
                     <h5>Capacity: 30Kg <br> Ideal For Retail Shops and Homes</h5>
-                    <h4>₹2700/-</h4>
+                    <!-- <h4>₹2700/-</h4> -->
                 </div>
             </div>
             <div class="card">
@@ -86,7 +86,7 @@
                 <div class="card-info">
                     <h2>DIGITAL INDICATOR</h2>
                     <h5>Capacity: Variable <br> Ideal For Weighing Bridges</h5>
-                    <h4>₹5000/-</h4>
+                    <!-- <h4>₹5000/-</h4> -->
                 </div>
             </div>
             <div class="card">
@@ -94,7 +94,7 @@
                 <div class="card-info">
                     <h2>KITCHEN SCALE</h2>
                     <h5>Capacity: 5Kg <br> Ideal For Kitchens</h5>
-                    <h4>₹700/-</h4>
+                    <!-- <h4>₹700/-</h4> -->
                 </div>
             </div>
             <div class="card">
@@ -102,7 +102,7 @@
                 <div class="card-info">
                     <h2>PERSONAL WEIGHING SCALE</h2>
                     <h5>Capacity: 150Kg <br> Ideal For Hospitals/Clinics</h5>
-                    <h4>₹900/-</h4>
+                    <!-- <h4>₹900/-</h4> -->
                 </div>
             </div>
             <div class="card">
@@ -110,7 +110,7 @@
                 <div class="card-info">
                     <h2>HANGING SCALE</h2>
                     <h5>Capacity: 120Kg <br> Ideal For Industrial Use</h5>
-                    <h4>₹700/-</h4>
+                    <!-- <h4>₹700/-</h4> -->
                 </div>
             </div>
             <div class="card">
@@ -118,7 +118,7 @@
                 <div class="card-info">
                     <h2>JEWLLERY SCALE</h2>
                     <h5>Capacity: Upto 5Kg <br> Ideal For High Precision Use</h5>
-                    <h4>₹4000/-</h4>
+                    <!-- <h4>₹4000/-</h4> -->
                 </div>
             </div>
             <div class="card">
@@ -126,7 +126,7 @@
                 <div class="card-info">
                     <h2>POCKET SCALE</h2>
                     <h5>Capacity: 3Kg <br> Portable Weighing Scale</h5>
-                    <h4>₹900/-</h4>
+                    <!-- <h4>₹900/-</h4> -->
                 </div>
             </div>
             <div class="card">
@@ -134,7 +134,7 @@
                 <div class="card-info">
                     <h2>HANGING SCALE</h2>
                     <h5>Capacity: 120Kg <br> Ideal For Industrial Use</h5>
-                    <h4>₹700/-</h4>
+                    <!-- <h4>₹700/-</h4> -->
                 </div>
             </div>
             <div class="card">
@@ -142,7 +142,7 @@
                 <div class="card-info">
                     <h2>HANGING SCALE</h2>
                     <h5>Capacity: 120Kg <br> Ideal For Industrial Use</h5>
-                    <h4>₹700/-</h4>
+                    <!-- <h4>₹700/-</h4> -->
                 </div>
             </div>
             <div class="card">
@@ -150,7 +150,7 @@
                 <div class="card-info">
                     <h2>HANGING SCALE</h2>
                     <h5>Capacity: 120Kg <br> Ideal For Industrial Use</h5>
-                    <h4>₹700/-</h4>
+                    <!-- <h4>₹700/-</h4> -->
                 </div>
             </div>
         </div>
