@@ -439,7 +439,7 @@ html{
     background-image: url(images/weigh.jpg);
     background-size: cover;
     background-position: center;
-    -webkit-filter: blur(0px) brightness(0.1);
+    -webkit-filter: blur(0px) brightness(0.78);
     z-index: -1;
 }
 .weighing-bridge-left h1{
