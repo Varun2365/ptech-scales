@@ -548,7 +548,7 @@ sup{
     overflow: hidden;
     /* transform: translateX(4440px);
      */
-    /* display: hidden; */
+    display: hidden;
     /* opacity: 0.2; */
     /* z-index: -199; */
     transition: all 0.3s ease-in-out;
