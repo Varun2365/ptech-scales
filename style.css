@@ -461,7 +461,7 @@ sup{
 }
 .weigh-bottom{
     width: 95%;
-    height: auto;
+    height: auto ;
     background-color: rgba(207, 207, 207, 0.009);
     border-radius: 20px;
     display: flex;
@@ -557,6 +557,11 @@ sup{
         flex-direction: column;
         height: auto;
     }
+    .weighing-bridge-right{
+        flex-direction: column;
+        height: auto;
+        padding-top: 5vh;
+    }
     .weighing-bridge-left{
         width: 100%;
         content: "<h1>Weighing Bridge <br><h4>& Automation</h4></h1>";
@@ -591,5 +596,6 @@ sup{
     .nav{
         padding: 1vw;
     }
+    
     
 }
