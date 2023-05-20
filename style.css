@@ -537,7 +537,7 @@ sup{
     background-image: url(images/mobile.jpg);
 }
 .menu{
-    width: 60%;
+    width: 70%;
     height: 100vh;
     background-color: black;
     position: fixed;
@@ -548,7 +548,7 @@ sup{
     overflow: hidden;
     /* transform: translateX(4440px);
      */
-    display: hidden;
+    display: none;
     /* opacity: 0.2; */
     /* z-index: -199; */
     transition: all 0.3s ease-in-out;
