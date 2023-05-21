@@ -201,17 +201,12 @@
         document.getElementById("panel").id = "tab";
         document.getElementById("ham").id = "ham";
         function hidemenu(){
-            // let tab = document.getElementById("panel");
-            tab.style.display = "none";
-            // tab.style.zindex = "-100";
-            // ham.style.zindex = "100";
+            tab.style.opacity = "0";
+            setTimeout(() => {tab.style.display = "none"; }, 300);
         }
         function showmenu(){
-            console.log("clicked");
-            
-            // tab.style.z-index = "100";
             tab.style.display = "block";
-
+            setTimeout(() => {tab.style.opacity = "1";}, 300);
         }
     </script>
 </body>
