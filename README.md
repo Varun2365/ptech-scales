@@ -56,7 +56,7 @@
     </div>
     <div class="home section">
         <div class="home-left">
-            <h1>P-TECH SCALES</h1>
+            <h1>WEBSITE UPDATED</h1>
             <center><h4>- Leading Indian Weighing Scale Manufacturers</h4>
             <h4 class="margin">- Where Quality Meets Satisfaction!</h4>
             <a href="#trust" class="no-decoration"><button class="button-default no-margin-button">Visit</button></a>
