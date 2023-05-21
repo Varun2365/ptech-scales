@@ -297,7 +297,7 @@ html{
     flex-direction: column;
     overflow: hidden;
     min-width: 15rem;
-    margin: 50px;
+    margin: 1.5rem;
     transition: all 0.2s ease-in-out;
     min-height: 15rem;
     max-height: 20rem;
