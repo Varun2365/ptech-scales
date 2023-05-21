@@ -25,7 +25,7 @@
                 <a href="#weigh">
                     <li>WEIGHING BRIDGE</li>
                 </a>
-                <a href="#">
+                <a href="#about-us">
                     <li>ABOUT US</li>
                 </a>
             </ul>
@@ -53,7 +53,7 @@
             <a href="#weigh" onclick="hidemenu()">
                 <li>WEIGHING BRIDGE</li>
             </a>
-            <a href="#" onclick="hidemenu()">
+            <a href="#about-us" onclick="hidemenu()">
                 <li>ABOUT US</li>
             </a>
         </ul>
@@ -210,13 +210,46 @@
             <!-- <button class="button-default" >Know More</button> -->
         </div>
     </div>
-    <div class="about-us section">
-        <!-- <marquee behavior="alternate" direction=""><center style="padding-top: 10rem">CURRENTLY WEBSITE UNDER CONSTRUCTION</center></marquee> -->
-        <button onclick="showmenu()">hello</button>
+    <div class="about-us" id="about-us">
+        <h1>ABOUT US</h1>
+        <div class="about-bg"><h5>P- Tech Scales is one of leading weighing scales manufacturing and weighing service industry since last 17 years .
+            We have wide range of electronic weighing machines like table top scale, personal scale, baby scale, platform scale, crane scale, cattle scale, milk weighing ,tank weighing ,truck scale upto 200 ton .
+            We also develop customize requirements like weighing automation for different industrial applications.
+            We also do service of any type and any brand weighing machine 1mg to 200 ton.
+            For this quality we also known service master.</h5></div>
+            <a href="https://www.google.com/search?hl=en-IN&gl=in&q=P-Tech+Scales,+P.no.+E+-98,+Welcome+industrial+complex,+Sanjay+Colony,+Sector+23,+Faridabad,+Haryana+121004&ludocid=3151429461554405174&lsig=AB86z5WweFuQ-I9mid67zen6NUhd#lrd=0x390cdbf7464c6e39:0x2bbc2065f6a69f36,3" target="_blank"><button class="round-hollow">Post A Review</button></a>
+            <div class="reviews">
+                <div class="review-card">
+                    <center><div class="review-text" style="text-align: left;">"Great product range for different users, Quality products, great after sales service. I must say I am a satisfied customer of p-tech scales and I should definitely recommend it for any digital/electronic weighing scale requirements."</div></center>
+                    <div class="top">
+                        <div class="rating star"></div>
+                        <div class="name"><h2>Mr. Deepak</h2></div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <center><div class="review-text" style="text-align: left;">"P-Tech Scales is a team of thorough service oriented professionals with products par excellence.. Definitely a recommended company for various type of quality weighing scales"</div></center>
+                    <div class="top">
+                        <div class="rating star"></div>
+                        <div class="name"><h2>Mr. Mayur</h2></div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <center><div class="review-text" style="text-align: left;">"P-Tech Scales is very good company in weighing scale it's products is affordable, reliable and accurate in weighing. There is wide range of weighing products."</div></center>
+                    <div class="top">
+                        <div class="rating star"></div>
+                        <div class="name"><h2>Google User</h2></div>
+                    </div>
+                </div>
+            </div>
     </div>
     <script>
         document.getElementById("panel").id = "tab";
         document.getElementById("ham").id = "ham";
+        document.querySelectorAll('*').forEach(elem => {
+  if (elem.offsetWidth > document.documentElement.offsetWidth) {
+      console.log('Problem child: ', el);
+  }
+});
         function hidemenu() {
             tab.style.opacity = "0";
             setTimeout(() => { tab.style.display = "none"; }, 300);
@@ -226,33 +259,6 @@
             setTimeout(() => { tab.style.opacity = "1"; }, 300);
         }
 
-        // function showCards() {
-
-
-        //     const hide = document.querySelectorAll(".hide");
-        //     num = hide.length;
-        //     console.log(num);
-        //     if (document.getElementById("hide") != null) {
-        //         document.getElementById("hide").removeAttribute('id');
-        //         const hide = document.querySelectorAll(".hide");
-        //         num = hide.length;
-        //         console.log(num)
-        //         for (i = 0; i < num; i++) {
-        //             hide[i].style.display = "none";
-        //         }
-        //         document.getElementById("showmore").innerText = "SHOW MORE";
-        //     }
-        //     else{
-        //         document.getElementById("showmore").id = "hide";
-                
-        //         for (i = 0; i < num; i++) {
-        //             hide[i].style.display = "block";
-        //         }
-        //         document.getElementById("showmore").innerText = "SHOW LESS";
-        //     }
-            
-        //     document.getElementById("showmore").setAttribute('id');
-        // }
 
         const hide = document.querySelectorAll(".hide");
         let num = hide.length;
@@ -278,6 +284,7 @@
                 button.id = "showmore";
             }
         }
+        
     </script>
 </body>
 
