@@ -549,7 +549,7 @@ sup{
     /* transform: translateX(4440px);
      */
     display: none;
-    /* opacity: 0.2; */
+    opacity: 0;
     /* z-index: -199; */
     transition: all 0.3s ease-in-out;
 }
@@ -564,11 +564,14 @@ sup{
 .menu a{
     text-decoration: none;
     color: white;
+    transition: all 0.2s ease-in-out;
 }
 .menu li{
     padding: 3vh 3vh;
     /* width: 100px; */
     font-weight: 1rem;
+    width: 100vw;
+    text-align: center;
 }
 .menu a:hover{
     background-color: white;
