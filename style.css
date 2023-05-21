@@ -377,17 +377,13 @@ html{
 .pocket{
     background-image: url(images/pocket.webp);
 }
-
-
-
-
-
-
-
-
-
-
-
+.tt{
+    background-image: url(images/tabletop.webp);
+    background-position: center;
+}
+.hide{
+    display: none;
+}
 
 
 
@@ -564,7 +560,8 @@ sup{
 .menu a{
     text-decoration: none;
     color: white;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out,color 0.05s ease ;
+    /* transition: ; */
 }
 .menu li{
     padding: 3vh 3vh;
@@ -580,7 +577,7 @@ sup{
 .cross-button{
     border: none;
     background-color: transparent;
-    margin-left: 0.4rem;
+    margin-left: 2rem;
 }
 .cross{
     height: 3rem;
