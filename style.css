@@ -199,20 +199,6 @@ html{
     margin-bottom: 40px;
 
 }
-.home-left h1::before{
-    content: '';
-    height: 100px;
-    width: 100px;
-    background-image: url('images/icons/asset\ \(1\).svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    transform: translateY(-10vh) translateX(-25vw);
-    /* transform: translateX(30px); */
-    opacity: 0.1;
-/* transform: translateY(40px); */
-}
 .red{
     background-color: red;
 }
