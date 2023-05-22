@@ -199,6 +199,7 @@ html{
     margin-bottom: 40px;
 
 }
+
 .red{
     background-color: red;
 }
@@ -207,7 +208,16 @@ html{
     color: white;
 }
 /* PRODUCTS */
-
+.transformed{
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .active{
+    transform: translateY(-50px);
+    opacity: 1;
+    z-index: -8;
+}
 .trust{
     /* margin-top: 8vh; */
     height: 50vh;
@@ -277,10 +287,11 @@ html{
     height: 50vh;
     width: 15vw;
     /* background-color: black; */
-    border-end-start-radius: 20px;
+    /* border-end-start-radius: 20px;
     border-end-end-radius: 20px;
     border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-left-radius: 10px; */
+    border-radius: 7px;
     border: 1px solid rgba(0, 0, 0, 0.258);
     display: flex;
     justify-content: space-between;
@@ -879,10 +890,9 @@ form{
 }
 @media only screen and (max-width: 670px){
     html{
-        font-size: 14px;
+        font-size: 12px;
     }
     .home{
         background-image: url(images/bg_vertical.jpg);
-        padding: 14vh 0;
     }
 }
