@@ -68,9 +68,9 @@
                         class="button-default no-margin-button">Visit</button></a>
             </center>
         </div>
-        <div class="home-right">
+        <!-- <div class="home-right">
             <div class="hero"></div>
-        </div>
+        </div> -->
     </div>
     <div class="trust" id="trust">
         <h3>Trusted By 1000+ Companies</h3>
