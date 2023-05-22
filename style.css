@@ -122,7 +122,7 @@ html{
     padding-top: 8vh;
 }
 .home{
-    height: 103vh;
+    height: auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -132,6 +132,11 @@ html{
     overflow: hidden;
     background-color: rgba(196, 196, 196, 0.201);
     /* background-color: #e3ccae0c; */
+    background-image: url(images/bg3.jpg);
+    /* color: white; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     z-index: 10;
 }
 .home::after{
@@ -297,7 +302,7 @@ html{
     flex-direction: column;
     overflow: hidden;
     min-width: 15rem;
-    margin: 1.5rem;
+    margin: 50px;
     transition: all 0.2s ease-in-out;
     min-height: 15rem;
     max-height: 20rem;
@@ -738,7 +743,7 @@ sup{
 .contact input, .text{
     height: 3rem;
     width: 100%;
-    border-radius: 2px;
+    border-radius: 10px;
     padding: 1rem 2rem ;
     outline: none;
     border: 1px solid black;
@@ -885,6 +890,6 @@ form{
 }
 @media only screen and (max-width: 450px){
     html{
-        font-size: 14px;
+        font-size: 12px;
     }
 }
