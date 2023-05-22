@@ -72,14 +72,14 @@
             <div class="hero"></div>
         </div> -->
     </div>
-    <div class="trust" id="trust">
+    <div class="trust transformed" id="trust">
         <h3>Trusted By 1000+ Companies</h3>
         <h2>All Over The India.</h2>
     </div>
     <div class="products section" id="products">
         <h1>&nbsp;PRODUCTS&nbsp;</h1>
         <div class="card-section">
-            <div class="card">
+            <div class="card ">
                 <div class="card-image table-top"></div>
                 <div class="card-info">
                     <h2>TABLE TOP</h2>
@@ -224,7 +224,7 @@
         </div>
         <a href="https://www.google.com/search?hl=en-IN&gl=in&q=P-Tech+Scales,+P.no.+E+-98,+Welcome+industrial+complex,+Sanjay+Colony,+Sector+23,+Faridabad,+Haryana+121004&ludocid=3151429461554405174&lsig=AB86z5WweFuQ-I9mid67zen6NUhd#lrd=0x390cdbf7464c6e39:0x2bbc2065f6a69f36,3"
             target="_blank"><button class="round-hollow">Post A Review</button></a>
-        <div class="reviews">
+        <div class="reviews transformed">
             <div class="review-card">
                 <center>
                     <div class="review-text" style="text-align: left;">"Great product range for different users, Quality
@@ -284,6 +284,23 @@
     
 
 <script>
+    window.addEventListener('scroll',reveal);
+    function reveal(){
+        var reveals = document.querySelectorAll('.transformed');
+        for(var i=0; reveals.length;i++){
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 200;
+
+            if(revealtop < windowheight - revealpoint){
+                reveals[i].classList.add('active');
+            }
+            else{
+                reveals[i].classList.remove('active');
+            }
+
+        }
+    }
         function sendEmail() {
             console.log("EMAIL")
             Email.send({
