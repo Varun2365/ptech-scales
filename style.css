@@ -893,7 +893,7 @@ form{
 }
 @media only screen and (max-width: 670px){
     html{
-        font-size: 12px;
+        font-size: 14px;
     }
     .home{
         background-image: url(images/bg_vertical.jpg);
