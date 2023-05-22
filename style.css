@@ -895,4 +895,7 @@ form{
     html{
         font-size: 12px;
     }
+    .home{
+        background-image: url(images/bg_vertical.jpg);
+    }
 }
