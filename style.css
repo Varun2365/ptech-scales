@@ -897,5 +897,6 @@ form{
     }
     .home{
         background-image: url(images/bg_vertical.jpg);
+        padding: 14vh 0;
     }
 }
